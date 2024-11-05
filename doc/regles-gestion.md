@@ -59,6 +59,6 @@
 
 ### Gestion des visiteurs :
 
-**RG15** - Un visiteur peut créer un compte utilisateur
+**RG26** - Un visiteur peut créer un compte utilisateur
 
-**RG16** - Un visiteur peut se connecter
+**RG27** - Un visiteur peut se connecter
