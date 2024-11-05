@@ -25,7 +25,7 @@
 
 **RG10** - Une commande est composée d'un cout total hors taxe
 
-**RG11** - Une commande doit contenir de la quantité totale des produits
+**RG11** - Une commande doit afficher la quantité totale des produits
 
 **RG12** - Une commande doit être composée de la date de création du compte 
 
