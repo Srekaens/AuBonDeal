@@ -33,3 +33,27 @@
 
 **RG14** - Une commande peut être confirmée
 
+### Gestion des produits :
+
+**RG15** - Un produit peut ne pas être commandé
+
+**RG16** - Un produit possède un identifiant unique
+
+**RG17** - Un produit possède un nom
+
+**RG18** - Un produit possède une description
+
+**RG19** - Un produit possède un prix
+
+**RG20** - Un produit possède une quantité
+
+**RG21** - Un produit possède une date de création
+
+**RG22** - Un produit possède une date de mise à jour
+
+**RG23** - Un produit peut être commandé par 0 ou n utilisateur
+
+**RG24** - Un produit ne peut pas être commandé si son stock est a zéro
+
+**RG25** - Un produit peut être consulté par tout le monde
+
