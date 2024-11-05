@@ -57,3 +57,8 @@
 
 **RG25** - Un produit peut être consulté par tout le monde
 
+### Gestion des visiteurs :
+
+**RG15** - Un visiteur peut créer un compte utilisateur
+
+**RG16** - Un visiteur peut se connecter
