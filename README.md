@@ -3,10 +3,17 @@
 ##  SOMMAIRE
  
 - [1. BDD](doc/BDD)
+    - [1.1 Dictionnaire de données](doc/BDD/dictionnaire-donnees.md)
+    - [1.2 MCD](doc/BDD/mcd.png)
+    - [1.3 MLD](doc/BDD/mld.png)
+    - [1.4 Sauvegardes](doc/BDD/sauvegardes)
 
-- [2. Benchmarks](doc/benchmarks) 
+- [2. Benchmarks](doc/benchmarks)
 
 - [3. Sécurité](doc/securite)
+    - [3.1 Politique de rétention](doc/securite/politique-retention.md)
+    - [3.2 RBAC](doc/securite/RBAC.md)
+    - [3.3 RGPD](doc/securite/RGPD.md)
 
 - [4. Règles de gestion](doc/regles-gestion.md)
     
