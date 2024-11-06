@@ -1,9 +1,9 @@
-<table>
+<table align="center">
     <thead>
         <tr>
             <th align="center">Permissions</th>
-            <th align="center">Utilisateur</th>
-            <th align="center">Visiteur</th>
+            <th align="center">Users</th>
+            <th align="center">Visitor</th>
         </tr>
     </thead>
     <tbody>
