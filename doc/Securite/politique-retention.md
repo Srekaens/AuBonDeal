@@ -150,13 +150,13 @@ La règle 3-2-1 est une stratégie éprouvée pour la sauvegarde des données vi
 
 - **Destruction** : Suppression sécurisée après la période de conservation légale.
 
-### Données des Transactions
+### Données des transactions
 
 - **Durée de conservation** : Conservées pendant **10 ans** conformément aux obligations comptables et fiscales.
 
 - **Destruction** : Suppression sécurisée après expiration des obligations légales.
 
-### Données des Produits
+### Données des produits
 
 - **Durée de conservation** : Conservées tant que le produit est actif sur la plateforme, puis archivées pendant **2 ans** après désactivation ou suppression du produit.
 
@@ -170,12 +170,36 @@ La règle 3-2-1 est une stratégie éprouvée pour la sauvegarde des données vi
 
 ---
 
-## 12. Menaces contre lesquelles cette politique de rétention protège
+## 12. Pour lutter contre quelles menaces ? 
 
-- **Pertes de donées accidentelles** : Protection contre les suppressions ou modifications erronées des données (par exemple, suppression accidentelle de données par un employé).
+Cette politique de rétention est conçue pour protéger contre plusieurs types de menaces liées à la sécurité des données. Voici les attaques spécifiques contre lesquelles cette politique vise à lutter :
 
-- **Corruption de données** : Protection contre la corruption de données suite à des pannes matérielles, des erreurs logicielles, ou des attaques malveillantes comme des **injections SQL** ou des **pannes de disque dur**.
+### 1. **Pertes de données accidentelles**
+- **Menace** : Suppression ou modification erronée des données par un utilisateur ou un employé.
+- **Contre-mesures** : 
+  - Sauvegardes régulières pour garantir la récupération des données perdues.
+  - Utilisation de la règle 3-2-1 pour éviter la perte de données locales.
+  - Vérifications d'intégrité des sauvegardes pour éviter les erreurs.
 
-- **Attaques ransomware** : Protection contre les attaques de type ransomware où des données sont chiffrées par des attaquants (par exemple, **chiffrement des données par un ransomware**).
+### 2. **Corruption de données**
+- **Menace** : Corruption des données suite à des défaillances matérielles (ex : disque dur défectueux), des erreurs logicielles ou des attaques malveillantes.
+- **Exemples d'attaques** : **Injections SQL**, **pannes de disque dur**.
+- **Contre-mesures** : 
+  - Sauvegardes régulières et tests de restauration pour vérifier l'intégrité des données.
+  - Chiffrement des données pour éviter l'altération non autorisée.
 
-- **Catastrophes naturelles** : Protection contre les sinistres physiques (incendies, inondations) qui pourraient affecter les installations où les données sont stockées localement.
+### 3. **Attaques ransomware**
+- **Menace** : Chiffrement des données par des attaquants afin d'exiger une rançon pour leur décryptage.
+- **Exemple d'attaque** : **Chiffrement des données par un ransomware**.
+- **Contre-mesures** : 
+  - Sauvegardes incrémentielles horaires pour minimiser la perte de données avant l'attaque.
+  - Stockage des sauvegardes dans des endroits hors ligne (par exemple, stockage cloud sécurisé) pour empêcher l'attaque d'affecter toutes les copies.
+  - Chiffrement des sauvegardes pour éviter qu'elles ne soient corrompues ou effacées.
+
+### 4. **Catastrophes naturelles**
+- **Menace** : Sinistres physiques (incendies, inondations) qui pourraient affecter les installations où les données sont stockées localement.
+- **Exemple de menaces** : **Incendie**, **inondation**, **vol**.
+- **Contre-mesures** : 
+  - Utilisation de la règle 3-2-1 pour garantir qu'au moins une copie des données est conservée hors site.
+  - Stockage des données dans des environnements géographiquement distincts, comme le cloud sécurisé.
+  - Chiffrement des sauvegardes pour garantir leur sécurité, même en cas d'accès physique non autorisé.
