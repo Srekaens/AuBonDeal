@@ -2,15 +2,15 @@
 
 ##  SOMMAIRE
  
-- [1. BDD](#./doc/BDD)
+- [1. BDD](doc/BDD)
 
-- [2. Benchmarks](#./doc/benchmarks) 
+- [2. Benchmarks](doc/benchmarks) 
 
-- [3. Sécurité](#./doc/securite)
+- [3. Sécurité](doc/securite)
 
-- [4. Règles de gestion](#./doc/regles-gestion.md)
+- [4. Règles de gestion](doc/regles-gestion.md)
     
-- [5. Propositions d'amélioration](#./doc/propositions-ameliorations.md)
+- [5. Propositions d'amélioration](doc/propositions-ameliorations.md)
 
 - [6. Pourquoi PostgreSQL](#pourquoi-postgresql)
 
