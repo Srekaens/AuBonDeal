@@ -8,7 +8,7 @@
     - [1.3 MLD](doc/BDD/mld.png)
     - [1.4 Sauvegardes](doc/BDD/sauvegardes)
 
-- [2. Benchmarks](doc/benchmarks)
+- [2. Benchmarks](doc/benchmarks/benchmark-bdd.md)
 
 - [3. Sécurité](doc/securite)
     - [3.1 Politique de rétention](doc/securite/politique-retention.md)
